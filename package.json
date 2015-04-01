@@ -13,11 +13,13 @@
   },
   "dependencies": {
     "auto-reload-brunch": ">= 1.0 < 1.8",
+    "autoprefixer-brunch": "^1.8.4",
     "clean-css-brunch": ">= 1.0 < 1.8",
     "css-brunch": ">= 1.0 < 1.8",
     "jade-brunch": "^1.8.1",
     "javascript-brunch": ">= 1.0 < 1.8",
     "static-jade-brunch": "^1.7.0",
+    "stylus-brunch": "^1.8.1",
     "uglify-js-brunch": ">= 1.0 < 1.8"
   }
 }
