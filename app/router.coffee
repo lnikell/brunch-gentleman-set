@@ -2,8 +2,7 @@ class Router extends Backbone.Router
   routes:
     '': 'home'
 
-
-  home: =>
+  home: ->
     console.log "home"
 
  
