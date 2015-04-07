@@ -5,25 +5,23 @@ template = require 'templates/layout'
 class Router extends Backbone.Router
   initialize: ->
     super
-    window.layout = layout = new Backbone.Layout
+    @layout = new Backbone.Layout
       template: template
       el: false
       suppressWarnings: true
       views: 
         "header": new HeaderView()
-    layout.$el.appendTo("body");
-    layout.render()
+    @layout.$el.appendTo("body");
+    @layout.render()
   
   routes:
     '': 'home'
     'about': 'about'
 
   home: ->
-    console.log "home"
-    layout.setView "section", new HomeView()
+    @layout.setView("section", new HomeView()).render()
   about: ->
-    console.log "about"
-    layout.setView "section", new AboutView() 
+    @layout.setView("section", new AboutView()).render()
 
  
 
