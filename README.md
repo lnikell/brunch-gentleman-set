@@ -8,6 +8,10 @@ This is simple HTML5 skeleton, built with [Brunch](brunch.io).
 * Jquery
 * Underscore
 
+### Getting started
+Just execute this command from your terminal:
+`brunch new gh:lnikell/brunch-gentleman-set`
+
 ### Key features
 * Autoprefixer
 * Backbone.LayoutManager
