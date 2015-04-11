@@ -9,8 +9,15 @@ This is simple HTML5 skeleton, built with [Brunch](brunch.io).
 * Underscore
 
 ### Key features
+* Autoprefixer
+* Backbone.LayoutManager
+* HTML5 template
+* Mobile devices compatibility
+
+
 #### Autoprefixer
-Plugin that parse CSS and add vendor prefixes to CSS rules using values from Can I Use. 
+Plugin that parse CSS and add vendor prefixes to CSS rules using values from Can I Use. I start using it instead of [nib](https://github.com/tj/nib).
+
 Input:
 ```css
 .item {
@@ -25,3 +32,27 @@ Output:
   border-radius: 5px;
   }
 ```
+More information about autoprefixer you can get [here](brunch.io).
+You can specify the browsers you want to target in your project. 
+```coffee
+# brunch-config.coffee
+exports.config =
+  # … 
+  plugins:
+    autoprefixer:
+      browsers: ["last 1 version", "> 1%", "ie 8", "ie 7"]
+      cascade: false
+```
+
+#### Backbone.LayoutManager
+Provides a logical foundation for assembling layouts and views within Backbone.
+Some basics view's methods, which make your develop better
+* `setView` set view to existing layout view into specific element  
+* `serialize` pass variables to template
+* `afterRender`/`beforeRender` 
+
+[Documentation](https://github.com/tbranyen/backbone.layoutmanager)
+
+#### Mobile devices compatibility
+HTML5 layout template.
+Pushstate disabled and app works good in static mode too.
