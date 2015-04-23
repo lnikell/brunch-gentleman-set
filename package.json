@@ -19,7 +19,7 @@
     "css-brunch": ">= 1.0 < 1.8",
     "jade-brunch": "^1.8.1",
     "javascript-brunch": ">= 1.0 < 1.8",
-    "static-jade-brunch": "git+ssh://git@github.com:ilkosta/static-jade-brunch.git",
+    "static-jade-brunch": "git+https://github.com/ilkosta/static-jade-brunch.git",
     "stylus-brunch": "^1.8.1",
     "uglify-js-brunch": ">= 1.0 < 1.8"
   }
