@@ -20,6 +20,8 @@ Just execute this command from your terminal:
 
 
 #### Autoprefixer
+[GitHub](https://github.com/postcss/autoprefixer)
+
 Plugin that parse CSS and add vendor prefixes to CSS rules using values from Can I Use. I start using it instead of [nib](https://github.com/tj/nib).
 
 Input:
@@ -36,7 +38,6 @@ Output:
   border-radius: 5px;
   }
 ```
-More information about autoprefixer you can get [here](brunch.io).
 You can specify the browsers you want to target in your project. 
 ```coffee
 # brunch-config.coffee
@@ -49,13 +50,13 @@ exports.config =
 ```
 
 #### Backbone.LayoutManager
+[GitHub](https://github.com/tbranyen/backbone.layoutmanager)
+
 Provides a logical foundation for assembling layouts and views within Backbone.
 Some basics view's methods, which make your develop better
 * `setView` set view to existing layout view into specific element  
 * `serialize` pass variables to template
 * `afterRender`/`beforeRender` 
-
-[Documentation](https://github.com/tbranyen/backbone.layoutmanager)
 
 #### Mobile devices compatibility
 HTML5 layout template.
