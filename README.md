@@ -1,5 +1,5 @@
 # Brunch gentleman set
-This is simple HTML5 skeleton, built with [Brunch](brunch.io).
+This is simple HTML5 skeleton, built with [Brunch](http://brunch.io).
 ## Using technologies
 * Stylus
 * Coffescript
